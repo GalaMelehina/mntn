@@ -1,0 +1,70 @@
+.title-1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 88px;
+    line-height: 1;
+    text-transform: capitalize;
+
+    /* Tablet */
+    @media (max-width: 1200px) {
+        font-size: 68px;
+    }
+
+    /* Tablet */
+    @media (max-width: 800px) {
+        font-size: 32px;
+    }
+}
+
+.title-2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 1.2;
+
+    /* Tablet big*/
+    @media (max-width: 1200px) {
+        font-size: 42px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        font-size: 32px;
+    }
+}
+
+.title-3 {
+    position: relative;
+    padding-left: 104px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: $accent-color;
+
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 72px;
+        height: 2px;
+        background-color: $accent-color;
+
+        /* Tablet */
+        @media (max-width: 800px) {
+            width: 42px;
+        }
+    }
+
+    /* Tablet */
+    @media (max-width: 800px) {
+        font-size: 14px;
+        padding-left: 62px;
+    }
+}

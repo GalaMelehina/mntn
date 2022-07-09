@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<!-- encoding -->
+		<meta charset="UTF-8" />
+		<!-- Mobile support -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Title and SEO -->
+		<title>Adventure Mountain</title>
+		<meta name="description" content="Описание страницы" />
+		<meta name="keywords" content="ключевые слова, фразы" />
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./fonts/gilroy/stylesheet.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+		<!-- Open Graph -->
+		<!-- <meta property="og:url" content="https://webcademy.ru/" /> -->
+		<meta property="og:type" content="Adventure Mountain" />
+		<meta property="og:title" content="Mountain travel" />
+		<meta property="og:description" content="Mountain travel" />
+		<meta property="og:image" content="./img/opengraph.jpg"/>
+
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="./img/favicon/site.webmanifest">
+		<link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+	</head>
+	<body>
+		<header class="header">
+			<nav class="nav">
+				<div class="nav__row">
+					<div class="logo">MNTN</div>
+					<ul class="nav__list">
+						<li class="nav__list-item"><a href="#">Equipment</a></li>
+						<li class="nav__list-item"><a href="#">About us</a></li>
+						<li class="nav__list-item"><a href="#">Blog</a></li>
+					</ul>
+					<a href="#" class="login">Account</a>
+					<button class="nav-button">
+						<span class="nav-button__icon"></span>
+					</button>
+
+					<div class="mobile-nav">
+						<ul class="nav__list">
+							<li class="nav__list-item"><a href="#">Equipment</a></li>
+							<li class="nav__list-item"><a href="#">About us</a></li>
+							<li class="nav__list-item"><a href="#">Blog</a></li>
+						</ul>
+						<a href="#" class="login">Account</a>
+					</div>
+				</div>
+			</nav>
+
+			<div class="header__row">
+				<div class="header__icons">
+					<div class="header__icons-text">Follow us</div>
+					<a href="#" class="header__icons-icon">
+						<svg width="22" height="17" viewBox="0 0 22 17" xmlns="http://www.w3.org/2000/svg">
+							<path d="M21.4592 2.01238C20.6896 2.35373 19.8624 2.58442 18.9944 2.68815C19.8803 2.15701 20.5609 1.31598 20.8813 0.31378C20.052 0.80564 19.1336 1.16278 18.156 1.3552C17.3732 0.52112 16.2579 0 15.0235 0C12.6534 0 10.7317 1.92147 10.7317 4.29155C10.7317 4.6279 10.7697 4.95546 10.8429 5.2696C7.27609 5.0906 4.11375 3.38203 1.99709 0.78551C1.62765 1.41935 1.41601 2.15656 1.41601 2.94309C1.41601 4.43204 2.17364 5.74563 3.32523 6.5153C2.62179 6.4929 1.95996 6.2999 1.38139 5.97846C1.38098 5.99639 1.38098 6.0143 1.38098 6.0324C1.38098 8.1118 2.86033 9.8463 4.82359 10.2406C4.46349 10.3387 4.08434 10.3912 3.69294 10.3912C3.4164 10.3912 3.14755 10.3642 2.88546 10.3142C3.43161 12.0191 5.01653 13.26 6.89454 13.2945C5.42576 14.4457 3.57527 15.1318 1.56453 15.1318C1.21812 15.1318 0.876511 15.1114 0.540771 15.0717C2.44003 16.2894 4.69591 17 7.1195 17C15.0134 17 19.3302 10.4605 19.3302 4.78918C19.3302 4.60314 19.326 4.41805 19.3177 4.23395C20.1563 3.62886 20.8839 2.87302 21.4592 2.01238Z"/>
+						</svg>
+					</a>
+					<a href="#" class="header__icons-icon">
+						<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<path d="M7.8 2.00002H16.2C19.4032 2.00002 22 4.59677 22 7.80002V16.2C22 19.4033 19.4032 22 16.2 22H7.8C4.59675 22 2 19.4033 2 16.2V7.80002C2 4.59677 4.59675 2.00002 7.8 2.00002ZM7.6 4C5.61177 4 4 5.61178 4 7.6V16.4C4 18.3882 5.61177 20 7.6 20H16.4C18.3882 20 20 18.3882 20 16.4V7.6C20 5.61178 18.3882 4 16.4 4H7.6ZM17.25 5.5C17.9404 5.5 18.5 6.05965 18.5 6.75C18.5 7.44036 17.9404 8 17.25 8C16.5596 8 16 7.44036 16 6.75C16 6.05965 16.5596 5.5 17.25 5.5ZM12 7C14.7614 7 17 9.23858 17 12C17 14.7614 14.7614 17 12 17C9.23857 17 7 14.7614 7 12C7 9.23858 9.23857 7 12 7ZM12 9C10.3431 9 9 10.3432 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3432 13.6569 9 12 9Z"/>
+						</svg>
+					</a>
+				</div>
+				<div class="header__content">
+					<div class="header__subtitle">
+						<h3 class="title-3">A Hiking guide</h3>
+					</div>
+					<div class="header__title">
+						<h1 class="title-1">Be prepared for the Mountains and beyond!</h1>
+					</div>
+					<a href="#main" class="header__content-link">scroll down</a> 
+				</div>
+				<ul class="header__menu-list">
+					<li><a href="#main" class="header__menu-item">Start</a></li>
+					<li><a href="#article01" class="header__menu-item">01</a></li>
+					<li><a href="#article02" class="header__menu-item">02</a></li>
+					<li><a href="#article03" class="header__menu-item">03</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<main id="main">
+			<div class="container">
+				<article class="content" id="article01">
+					<div class="content__text" data-number="01">
+						<div class="content__subtitle">
+							<h3 class="title-3">GEt Started</h3>
+						</div>
+						<div class="content__title">
+							<h2 class="title-2">What level of  hiker are you?</h2>
+						</div>
+						<p>Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker?</p>
+						<a href="#" class="content__link">read more</a>
+					</div>
+					<div class="content__img">
+						<img src="./../img/01.jpg" alt="Photo">
+					</div>
+				</article>
+				<article class="content" id="article02">
+					<div class="content__text" data-number="02">
+						<div class="content__subtitle">
+							<h3 class="title-3">Hiking Essentials</h3>
+						</div>
+						<div class="content__title">
+							<h2 class="title-2">Picking the right Hiking Gear!</h2>
+						</div>
+						<p>The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have. Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.</p>
+						<a href="#" class="content__link">read more</a>
+					</div>
+					<div class="content__img">
+						<img src="./../img/02.jpg" alt="Photo">
+					</div>
+				</article>
+				<article class="content" id="article03">
+					<div class="content__text" data-number="03">
+						<div class="content__subtitle">
+							<h3 class="title-3">where you go is the key</h3>
+						</div>
+						<div class="content__title">
+							<h2 class="title-2">Understand Your Map &amp; Timing</h2>
+						</div>
+						<p>To start, print out the hiking guide and map. If it&rsquo;s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I&rsquo;ll read the guide and know that say, in a mile, I make a right turn at the junction..</p>
+						<a href="#" class="content__link">read more</a>
+					</div>
+					<div class="content__img">
+						<img src="./../img/03.jpg" alt="Photo">
+					</div>
+				</article>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<div class="footer__copyright">
+						<div class="logo">MNTN</div>
+						<div class="footer__copyright-text">
+							<p>Get out there &amp; discover your next slope, mountain & destination!</p>
+						</div>
+						<div class="footer__copyright-info">
+							<p>Copyright 2019 MNTN, Inc. Terms &amp; Privacy</p>
+						</div>
+					</div>
+					<div class="footer__info">
+						<div class="footer__block">
+							<h4 class="footer__block-title">More on The Blog</h4>
+							<ul class="footer__block-list">
+								<li><a href="#">About MNTN</a></li>
+								<li><a href="#">Contributors &amp; Writers</a></li>
+								<li><a href="#">Write For Us</a></li>
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+						<div class="footer__block">
+							<h4 class="footer__block-title">More on MNTN</h4>
+							<ul class="footer__block-list">
+								<li><a href="#">The Team</a></li>
+								<li><a href="#">Jobs</a></li>
+								<li><a href="#">Press</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>

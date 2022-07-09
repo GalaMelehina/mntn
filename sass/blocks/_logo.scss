@@ -1,0 +1,12 @@
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.1875;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+    /* Tablet */
+    @media (max-width: 800px) {
+        font-size: 26px;
+    }
+}
